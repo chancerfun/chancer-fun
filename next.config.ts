@@ -6,8 +6,8 @@ const nextConfig = {
     unoptimized: true, // Required for static exports if you're using `next/image`
   },
   trailingSlash: true, // Adds trailing slashes to all paths
-  basePath: '', // Update this if deploying to a subpath (e.g., '/my-repo')
-  assetPrefix: '', // Update this if assets need a prefix (e.g., CDN)
+  basePath: '/chancer-fun', // Update this if deploying to a subpath (e.g., '/my-repo')
+  assetPrefix: '/chancer-fun', // Update this if assets need a prefix (e.g., CDN)
 
   webpack(config: {
       module: {
